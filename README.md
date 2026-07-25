@@ -18,8 +18,20 @@ This repository contains my Azure learning notes, practical labs, and hands-on p
 - SQL
 - Linux
 - Azure Administration (AZ-104)
+  
 ## Goals
 My goal is to transition from Major Incident Management into Application Support and Azure Cloud Support by building practical Azure projects and improving my troubleshooting skills.
+
+## Skills
+
+- Azure
+- ServiceNow
+- Splunk
+- ITIL
+- Incident Management
+- Production Support
+- SQL (Learning)
+- Linux (Learning)
 
 
 Thank you for visiting my repository.
