@@ -20,8 +20,9 @@ Deploy a Windows Virtual Machine in Microsoft Azure Portal.
 4. Connected using RDP
 5. Verified successful deployment
 
-## Deployment Screenshot 
+## Deployment Screenshot
 
+![Azure VM](azure-vm.png)
 
 ## Outcome
 
