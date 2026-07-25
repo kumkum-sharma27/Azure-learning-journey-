@@ -1,4 +1,4 @@
-# Azure-learning-journey-
+# Azure Learning Journey
 My Azure learning journey, notes, and hands-on projects.
 
 Hi, I'm Kumkum Sharma.
