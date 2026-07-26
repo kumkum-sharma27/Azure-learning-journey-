@@ -61,14 +61,11 @@ SSH Connection
 
 ## Screenshots
 
-### Azure VM Running
+## Screenshot Gallery
 
-![VM Running](../images/vm-overview.png)
-
-### SSH Connected
-
-![SSH Connected](../images/ssh-connected.png)
-
+| Azure VM Running | SSH Connected |
+|------------------|---------------|
+| ![](../images/vm-overview.png) | ![](../images/ssh-connected.png) |
 ---
 
 ## Commands Used
