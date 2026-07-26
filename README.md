@@ -1,70 +1,120 @@
-![Azure](https://img.shields.io/badge/Microsoft-Azure-0078D4?logo=microsoftazure&logoColor=white) ![ServiceNow](https://img.shields.io/badge/ServiceNow-ITSM-81B441?logo=servicenow&logoColor=white) ![Splunk](https://img.shields.io/badge/Splunk-Log%20Analysis-000000?logo=splunk&logoColor=white) ![AZ-900](https://img.shields.io/badge/AZ--900-Certified-blue) ![ITIL](https://img.shields.io/badge/ITIL-4%20Foundation-purple)
-
 # ☁️ Azure Learning Journey
 
-Welcome to my Azure learning portfolio.
-
-I am currently transitioning from **Major Incident Management (MIM)** to **Application Support / Azure Cloud Support**. This repository documents my hands-on Azure projects while preparing for the **AZ-104 Azure Administrator** certification.
-
----
-
-## 🎯 Objective
-
-- Learn Microsoft Azure through hands-on labs
-- Build practical cloud projects
-- Strengthen Application Support skills
-- Showcase real Azure experience
+![Azure](https://img.shields.io/badge/Microsoft-Azure-0078D4?logo=microsoftazure&logoColor=white)
+![ServiceNow](https://img.shields.io/badge/ServiceNow-ITSM-81B441?logo=servicenow&logoColor=white)
+![Splunk](https://img.shields.io/badge/Splunk-Log%20Analysis-000000?logo=splunk&logoColor=white)
+![AZ-900](https://img.shields.io/badge/AZ--900-Certified-blue)
+![ITIL](https://img.shields.io/badge/ITIL-4%20Foundation-purple)
 
 ---
 
-## 📚 Certifications
+## 👋 About Me
 
-- ✅ Microsoft Azure Fundamentals (AZ-900)
-- ✅ ITIL® 4 Foundation
+Hi, I'm **Kumkum Sharma**.
 
----
+I currently work as a **Major Incident Manager** with 4+ years of IT experience.
 
-## 🛠️ Skills
+My goal is to transition into **Application Support** and **Azure Cloud Support** by gaining practical, hands-on experience with Microsoft Azure.
 
-- Microsoft Azure
-- Virtual Machines
-- Azure Networking
-- Linux (Learning)
-- ServiceNow
-- Splunk
-- SQL (Learning)
-- Azure Administration (Learning)
+This repository documents my Azure learning journey through real deployments, troubleshooting, and project documentation.
 
 ---
 
-## 📂 Projects
+# 🎯 Career Goal
+
+✅ Major Incident Manager
+
+➡️ Application Support Engineer
+
+➡️ Azure Cloud Support Engineer
+
+---
+
+# 🛠 Skills I'm Building
+
+- ☁️ Microsoft Azure
+- 🖥 Virtual Machines
+- 🌐 Azure App Services
+- 📦 Azure Storage
+- 🔐 Identity & Access Management
+- 🌍 Azure Networking
+- 📊 Azure Monitor
+
+---
+
+# 📚 AZ-900 Learning Roadmap
 
 | Project | Status |
-|----------|--------|
-| Azure VM Deployment | ✅ Completed |
-| Azure Storage Account | 🚧 Coming Soon |
-| Azure Virtual Network | 🚧 Coming Soon |
-| Azure NSG | 🚧 Coming Soon |
-| Azure Monitor | 🚧 Coming Soon |
-
----
-# 📚 AZ-900 Learning Journey
-
-| Module | Hands-on Project | Status |
-|---------|------------------|--------|
-| ☁️ Azure Virtual Machine | Deploy Ubuntu VM & Connect via SSH | ✅ Completed |
-| 🔐 Connect to Virtual Machine | SSH into Azure VM | ✅ Completed |
-| 🌐 Azure App Service | Deploy a Web App | ✅ Completed |
-| ⚡ Azure Functions | Create a Serverless Function | ⏳ Learning |
-| 📦 Azure Container Instances | Deploy a Container | ⏳ Learning |
-| 🚢 Azure Container Apps | Deploy a Container App | ⏳ Learning |
-| 💾 Azure Storage Account | Blob Storage | ⏳ Planned |
-| 🌍 Azure Virtual Network | VNet & Subnets | ⏳ Planned |
-| 🛡️ Network Security Group | Secure VM Access | ⏳ Planned |
-| 📊 Azure Monitor | Metrics & Alerts | ⏳ Planned |
+|---------|--------|
+| ✅ Azure Virtual Machine Deployment | Completed |
+| ✅ Connect to Azure VM using SSH | Completed |
+| ✅ Azure App Service Deployment | Completed |
+| ⏳ Azure Functions | In Progress |
+| ⏳ Azure Container Instances | Planned |
+| ⏳ Azure Container Apps | Planned |
+| ⏳ Azure Storage Account | Planned |
+| ⏳ Azure Virtual Network | Planned |
+| ⏳ Network Security Group | Planned |
+| ⏳ Azure Monitor | Planned |
 
 ---
 
-## 📌 Goal
+# 📂 Projects
 
-Build 10+ Azure projects while preparing for AZ-104 and transition into an Azure/Application Support Engineer role.
+| Project | Description |
+|---------|-------------|
+| [Azure Virtual Machine Deployment](projects/Azure-VM-Deployment.md) | Deploy and connect to an Azure Linux VM |
+| [Azure App Service Deployment](projects/Azure-App-Service.md) | Deploy a Web Application using Azure App Service |
+
+---
+
+# 🔧 Troubleshooting Log
+
+Real issues encountered during Azure hands-on practice.
+
+| Issue | Status |
+|-------|--------|
+| Regional quota limitation | ✅ Resolved |
+| App Service deployment failure | ✅ Resolved |
+| SSH connection to Azure VM | ✅ Resolved |
+| Subscription limitations | ✅ Resolved |
+
+📄 **Details:** [Troubleshooting Log](TROUBLESHOOTING.md)
+
+---
+
+# 📈 Learning Progress
+
+```
+Azure Fundamentals     ██████████ 100%
+
+Hands-on Labs          ███░░░░░░░ 30%
+
+GitHub Documentation   ██████░░░░ 60%
+
+AZ-104 Preparation     ░░░░░░░░░░ 0%
+```
+
+---
+
+# 💡 Key Learnings
+
+- Practical Azure resource deployment
+- Azure troubleshooting
+- Subscription quota management
+- Azure App Service
+- Azure Virtual Machines
+- Linux SSH connectivity
+- Cloud fundamentals
+- Documentation best practices
+
+---
+
+# 🚀 Next Goals
+
+- Azure Functions
+- Azure Storage
+- Azure Networking
+- Azure Monitor
+- Azure RBAC
+- AZ-104 Certification
