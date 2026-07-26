@@ -1,49 +1,77 @@
 # Azure Virtual Machine Deployment
 
+## Project Overview
+
+This project demonstrates deploying an Ubuntu Linux Virtual Machine in Microsoft Azure and successfully connecting using SSH.
+
+---
+
 ## Objective
 
-Deploy a Windows Virtual Machine in Microsoft Azure Portal.
+- Deploy Azure VM
+- Configure Networking
+- Assign Public IP
+- Connect via SSH
+- Verify Linux VM access
+
+---
 
 ## Azure Services Used
 
-- Virtual Machine
-- Resource Group
+- Azure Virtual Machine
 - Virtual Network
 - Network Security Group
-- Public IP Address
+- Public IP
+- Resource Group
 
-## Steps Performed
+---
+
+## Architecture
+
+Azure Portal
+
+↓
+
+Resource Group
+
+↓
+
+Virtual Network
+
+↓
+
+Ubuntu Virtual Machine
+
+↓
+
+SSH Connection
+
+---
+
+## Deployment Steps
 
 1. Created Resource Group
-2. Created Windows Virtual Machine
-3. Configured Networking
-4. Connected using RDP
-5. Verified successful deployment
+2. Created Ubuntu VM
+3. Assigned Public IP
+4. Configured NSG
+5. Connected using SSH
+6. Verified successful deployment
 
-## Deployment Screenshot
+---
 
-![Azure VM](azure-vm.png)
-
-## Outcome
-
-Successfully deployed a Windows Virtual Machine in Azure.
-
-
-## Deployment Screenshots
+## Screenshots
 
 ### Azure VM Running
 
-![Azure VM Running](../images/vm-overview.png)
+![VM Running](../images/vm-overview.png)
 
-The Azure virtual machine was successfully created and is in the **Running** state.
-
-### SSH Connection
+### SSH Connected
 
 ![SSH Connected](../images/ssh-connected.png)
 
-Successfully connected to the Ubuntu virtual machine using SSH.
+---
 
-## Verification Commands
+## Commands Used
 
 ```bash
 hostname
@@ -51,7 +79,7 @@ whoami
 pwd
 ```
 
-Example Output
+Output
 
 ```text
 hostname
@@ -63,3 +91,20 @@ kumkums
 pwd
 /home/kumkums
 ```
+
+---
+
+## Skills Demonstrated
+
+- Azure Portal
+- Virtual Machines
+- Linux
+- SSH
+- Networking
+- Azure Administration
+
+---
+
+## Outcome
+
+Successfully deployed and accessed an Ubuntu Linux VM on Microsoft Azure using SSH.
