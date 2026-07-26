@@ -48,6 +48,22 @@ I am currently transitioning from **Major Incident Management (MIM)** to **Appli
 | Azure Monitor | 🚧 Coming Soon |
 
 ---
+# 📚 AZ-900 Learning Journey
+
+| Module | Hands-on Project | Status |
+|---------|------------------|--------|
+| ☁️ Azure Virtual Machine | Deploy Ubuntu VM & Connect via SSH | ✅ Completed |
+| 🔐 Connect to Virtual Machine | SSH into Azure VM | ✅ Completed |
+| 🌐 Azure App Service | Deploy a Web App | ⏳ Learning |
+| ⚡ Azure Functions | Create a Serverless Function | ⏳ Learning |
+| 📦 Azure Container Instances | Deploy a Container | ⏳ Learning |
+| 🚢 Azure Container Apps | Deploy a Container App | ⏳ Learning |
+| 💾 Azure Storage Account | Blob Storage | ⏳ Planned |
+| 🌍 Azure Virtual Network | VNet & Subnets | ⏳ Planned |
+| 🛡️ Network Security Group | Secure VM Access | ⏳ Planned |
+| 📊 Azure Monitor | Metrics & Alerts | ⏳ Planned |
+
+---
 
 ## 📌 Goal
 
