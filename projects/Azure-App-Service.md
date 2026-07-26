@@ -57,3 +57,24 @@ It covers subscription setup, quota management, provider registration, and verif
 ## ✅ Outcome
 Successfully deployed and verified a web application using Azure App Service.  
 The app is live at the generated Azure URL, confirming the deployment process was completed end-to-end, including resolving quota and provider registration challenges.
+
+---
+
+## ⚠️ Challenge Faced
+
+While deploying the Azure App Service, the deployment initially failed because the selected Azure region did not have sufficient available quota for my subscription. Although I had already requested a quota increase, the request was still pending approval, preventing the deployment from completing in that region.
+
+### Resolution
+
+To continue the hands-on exercise without waiting for the quota approval:
+
+- Selected another Azure region with available capacity.
+- Changed the App Service Plan pricing tier from **Basic** to the **Free (F1)** tier, which was supported by my subscription.
+- Redeployed the application successfully.
+
+### Key Learning
+
+- Azure resource availability can vary by region and subscription quotas.
+- If deployment fails due to quota limitations, selecting another supported region can resolve the issue.
+- Choosing an appropriate pricing tier based on subscription limits is important during deployment.
+- Understanding Azure quotas and regional availability is an essential part of troubleshooting Azure deployments.
