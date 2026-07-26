@@ -1,12 +1,4 @@
-![Azure](https://img.shields.io/badge/Microsoft-Azure-0078D4?logo=microsoftazure&logoColor=white)
-
-![ServiceNow](https://img.shields.io/badge/ServiceNow-ITSM-81B441?logo=servicenow&logoColor=white)
-
-![Splunk](https://img.shields.io/badge/Splunk-Log%20Analysis-000000?logo=splunk&logoColor=white)
-
-![AZ-900](https://img.shields.io/badge/AZ--900-Certified-blue)
-
-![ITIL](https://img.shields.io/badge/ITIL-4%20Foundation-purple)
+![Azure](https://img.shields.io/badge/Microsoft-Azure-0078D4?logo=microsoftazure&logoColor=white) ![ServiceNow](https://img.shields.io/badge/ServiceNow-ITSM-81B441?logo=servicenow&logoColor=white) ![Splunk](https://img.shields.io/badge/Splunk-Log%20Analysis-000000?logo=splunk&logoColor=white) ![AZ-900](https://img.shields.io/badge/AZ--900-Certified-blue) ![ITIL](https://img.shields.io/badge/ITIL-4%20Foundation-purple)
 
 # ☁️ Azure Learning Journey
 
