@@ -54,7 +54,7 @@ I am currently transitioning from **Major Incident Management (MIM)** to **Appli
 |---------|------------------|--------|
 | ☁️ Azure Virtual Machine | Deploy Ubuntu VM & Connect via SSH | ✅ Completed |
 | 🔐 Connect to Virtual Machine | SSH into Azure VM | ✅ Completed |
-| 🌐 Azure App Service | Deploy a Web App | ⏳ Learning |
+| 🌐 Azure App Service | Deploy a Web App | ✅ Completed |
 | ⚡ Azure Functions | Create a Serverless Function | ⏳ Learning |
 | 📦 Azure Container Instances | Deploy a Container | ⏳ Learning |
 | 🚢 Azure Container Apps | Deploy a Container App | ⏳ Learning |
