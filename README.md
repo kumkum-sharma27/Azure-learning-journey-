@@ -1,37 +1,53 @@
-# Azure Learning Journey
-My Azure learning journey, notes, and hands-on projects.
+# ☁️ Azure Learning Journey
 
-Hi, I'm Kumkum Sharma.
+Welcome to my Azure learning portfolio.
 
-I have 4 years of experience in IT, primarily in Major Incident Management and Production Support.
+I am currently transitioning from **Major Incident Management (MIM)** to **Application Support / Azure Cloud Support**. This repository documents my hands-on Azure projects while preparing for the **AZ-104 Azure Administrator** certification.
 
-I am currently transitioning into Application Support and Azure Cloud Support.
+---
 
-This repository contains my Azure learning notes, practical labs, and hands-on projects.
+## 🎯 Objective
 
-## Certifications
-- Microsoft Azure Fundamentals (AZ-900)
-- ITIL 4 Foundation
+- Learn Microsoft Azure through hands-on labs
+- Build practical cloud projects
+- Strengthen Application Support skills
+- Showcase real Azure experience
 
-## Currently Learning
-- AZ-900
-- SQL
-- Linux
-- Azure Administration (AZ-104)
-  
-## Goals
-My goal is to transition from Major Incident Management into Application Support and Azure Cloud Support by building practical Azure projects and improving my troubleshooting skills.
+---
 
-## Skills
+## 📚 Certifications
 
-- Azure
+- ✅ Microsoft Azure Fundamentals (AZ-900)
+- ✅ Microsoft Azure Data Fundamentals (DP-900)
+- ✅ ITIL® 4 Foundation
+
+---
+
+## 🛠️ Skills
+
+- Microsoft Azure
+- Virtual Machines
+- Azure Networking
+- Linux (Learning)
 - ServiceNow
 - Splunk
-- ITIL
-- Incident Management
-- Production Support
 - SQL (Learning)
-- Linux (Learning)
+- Azure Administration (Learning)
 
+---
 
-Thank you for visiting my repository.
+## 📂 Projects
+
+| Project | Status |
+|----------|--------|
+| Azure VM Deployment | ✅ Completed |
+| Azure Storage Account | 🚧 Coming Soon |
+| Azure Virtual Network | 🚧 Coming Soon |
+| Azure NSG | 🚧 Coming Soon |
+| Azure Monitor | 🚧 Coming Soon |
+
+---
+
+## 📌 Goal
+
+Build 10+ Azure projects while preparing for AZ-104 and transition into an Azure/Application Support Engineer role.
