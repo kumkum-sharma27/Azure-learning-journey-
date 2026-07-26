@@ -18,7 +18,6 @@ I am currently transitioning from **Major Incident Management (MIM)** to **Appli
 ## 📚 Certifications
 
 - ✅ Microsoft Azure Fundamentals (AZ-900)
-- ✅ Microsoft Azure Data Fundamentals (DP-900)
 - ✅ ITIL® 4 Foundation
 
 ---
