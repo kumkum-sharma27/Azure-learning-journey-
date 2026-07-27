@@ -128,8 +128,8 @@ Real-world Azure issues encountered during hands-on practice.
 
 | Category | Count |
 |----------|------:|
-| Azure Projects | 3 |
-| Azure Services Explored | 4 |
+| Azure Projects | 5 |
+| Azure Services Explored | 6 |
 | Troubleshooting Scenarios | 5 |
 | GitHub Documentation | Ongoing |
 | Hands-on Labs | Growing |
@@ -141,11 +141,11 @@ Real-world Azure issues encountered during hands-on practice.
 ```
 AZ-900 Theory           ██████████ 100%
 
-Azure Hands-on Labs     ████░░░░░░ 40%
+Azure Hands-on Labs     ██████░░░░ 60%
 
-GitHub Portfolio        ███████░░░ 70%
+GitHub Portfolio        █████████░ 90%
 
-Azure Troubleshooting   █████░░░░░ 50%
+Azure Troubleshooting   ██████░░░░ 60%
 
 AZ-104 Preparation      ░░░░░░░░░░ 0%
 ```
