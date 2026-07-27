@@ -49,7 +49,7 @@ This repository documents my Azure learning journey through real deployments, tr
 | ✅ Azure Virtual Machine Deployment | Completed |
 | ✅ Connect to Azure VM using SSH | Completed |
 | ✅ Azure App Service Deployment | Completed |
-| ⏳ Azure Functions | Completed |
+| ✅ Azure Functions | Completed |
 | ⏳ Azure Container Instances | Planned |
 | ⏳ Azure Container Apps | Planned |
 | ⏳ Azure Storage Account | Planned |
