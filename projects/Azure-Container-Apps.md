@@ -94,3 +94,13 @@ Azure Container Apps are commonly used for:
 ## ✅ Outcome
 
 Successfully deployed an Azure Container App and verified the deployment by accessing the generated application URL, which displayed the **"Hello World"** application. This confirmed that the containerized application was running successfully.
+
+| Azure Service             | Best Used For                        |
+| ------------------------- | ------------------------------------ |
+| Azure Virtual Machine     | Full operating system control        |
+| Azure App Service         | Web applications                     |
+| Azure Functions           | Event-driven serverless code         |
+| Azure Container Instances | Single container workloads           |
+| Azure Container Apps      | Containerized microservices and APIs |
+| Azure Kubernetes Service  | Large-scale container orchestration  |
+
