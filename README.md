@@ -105,22 +105,17 @@ Real-world Azure issues encountered during hands-on practice.
 
 # 📷 Project Gallery
 
-## 🖥 Azure Virtual Machine
+| Azure VM | App Service |
+|-----------|-------------|
+| ![](images/vm-overview.png) | ![](images/app-service-overview.png) |
 
-- VM Deployment
-- SSH Connection
-- Linux Commands Verification
+| Azure Functions | Azure Container Instances |
+|-----------------|---------------------------|
+| ![](images/function-app-overview.png) | ![](images/aci-overview.png) |
 
-## 🌐 Azure App Service
-
-- App Service Creation
-- Successful Web Application Deployment
-
-## ⚡ Azure Functions
-
-- Function App Creation
-- HTTP Trigger
-- Function URL Tested Successfully
+| Azure Container Apps |
+|-----------------------|
+| ![](images/container-app-overview.png) |
 
 ---
 
