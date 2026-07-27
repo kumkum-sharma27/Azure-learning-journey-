@@ -43,6 +43,7 @@ Azure Administrator
 - 🖥 Azure Virtual Machines
 - 🌐 Azure App Service
 - ⚡ Azure Functions
+- 🚀 Azure Container Apps
 - 📦 Azure Storage
 - 🌍 Azure Networking
 - 📊 Azure Monitor
@@ -62,6 +63,7 @@ Azure Administrator
 | ✅ Azure App Service Deployment | Completed |
 | ✅ Azure Functions (HTTP Trigger) | Completed |
 | ✅ Azure Container Instances (ACI) | Completed |
+| ✅ Azure Container Apps | Completed |
 | ⏳ Azure Storage Account | Planned |
 | ⏳ Azure Blob Storage | Planned |
 | ⏳ Azure Virtual Network (VNet) | Planned |
@@ -81,6 +83,7 @@ Azure Administrator
 | [Azure App Service Deployment](projects/Azure-App-Service.md) | Successfully deployed a web application using Azure App Service |
 | [Azure Functions (HTTP Trigger)](projects/Azure-Functions.md) | Created and tested an Azure Function using an HTTP Trigger |
 | [Azure Container Instances](projects/Azure-Container-Instances.md) | Deployed a containerized application and verified it using the public IP address |
+| [Azure Container Apps](projects/Azure-Container-Apps.md) | Deployed a containerized application using Azure Container Apps and verified it using the application URL |
 
 ---
 
