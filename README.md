@@ -61,6 +61,7 @@ Azure Administrator
 | ✅ Connect to Azure VM using SSH | Completed |
 | ✅ Azure App Service Deployment | Completed |
 | ✅ Azure Functions (HTTP Trigger) | Completed |
+| ✅ Azure Container Instances (ACI) | Completed |
 | ⏳ Azure Storage Account | Planned |
 | ⏳ Azure Blob Storage | Planned |
 | ⏳ Azure Virtual Network (VNet) | Planned |
@@ -79,6 +80,7 @@ Azure Administrator
 | [Azure Virtual Machine Deployment](projects/Azure-VM-Deployment.md) | Created and connected to an Azure Linux Virtual Machine using SSH |
 | [Azure App Service Deployment](projects/Azure-App-Service.md) | Successfully deployed a web application using Azure App Service |
 | [Azure Functions (HTTP Trigger)](projects/Azure-Functions.md) | Created and tested an Azure Function using an HTTP Trigger |
+| [Azure Container Instances](projects/Azure-Container-Instances.md) | Deployed a containerized application and verified it using the public IP address |
 
 ---
 
