@@ -4,7 +4,7 @@
 
 This project demonstrates creating an **Azure Storage Account**, creating a **Blob Container**, uploading files to Azure Blob Storage, and securely accessing uploaded files using a **Shared Access Signature (SAS)**.
 
-During testing, I also encountered the **PublicAccessNotPermitted** error when trying to access the blob using its direct URL. The issue was successfully resolved by generating a SAS URL.
+During testing, I encountered the **PublicAccessNotPermitted** error when attempting to access the uploaded blob using its direct Blob URL. The issue was successfully resolved by generating a **Shared Access Signature (SAS)** with Read permissions.
 
 ---
 
@@ -13,9 +13,9 @@ During testing, I also encountered the **PublicAccessNotPermitted** error when t
 - Understand Azure Storage Accounts
 - Create a Blob Container
 - Upload files to Azure Blob Storage
-- Learn the difference between Blob URL and SAS URL
-- Securely access private blobs using SAS
-- Understand Azure Storage security
+- Understand Blob URL access
+- Generate a Shared Access Signature (SAS)
+- Securely access private blobs
 
 ---
 
@@ -34,12 +34,13 @@ During testing, I also encountered the **PublicAccessNotPermitted** error when t
 1. Signed in to the Azure Portal.
 2. Created a new Resource Group.
 3. Created an Azure Storage Account.
-4. Created a Blob Container inside the Storage Account.
-5. Uploaded an image to the Blob Container.
-6. Attempted to access the uploaded file using the Blob URL.
+4. Created a Blob Container.
+5. Uploaded an image to Azure Blob Storage.
+6. Copied the Blob URL and attempted to access the uploaded file.
 7. Received the **PublicAccessNotPermitted** error because public access was disabled.
-8. Generated a **Shared Access Signature (SAS)** with Read permissions.
-9. Accessed the uploaded file successfully using the generated SAS URL.
+8. Generated a **Shared Access Signature (SAS)** with Read permission.
+9. Opened the generated SAS URL in a browser.
+10. Successfully accessed the uploaded blob.
 
 ---
 
@@ -47,29 +48,35 @@ During testing, I also encountered the **PublicAccessNotPermitted** error when t
 
 ### Azure Storage Account Overview
 
-![Storage Account](../images/storage-account-overview.png)
+![Azure Storage Account](../images/storage-account-overview.png)
+
+---
 
 ### Blob Container Created
 
 ![Blob Container](../images/blob-container.png)
 
+---
+
 ### File Uploaded to Blob Storage
 
-![Blob Upload](../images/blob-upload.png)
+![Uploaded Image](../images/uploaded-image.png)
+
+---
 
 ### Public Access Error
 
-This error occurred when attempting to access the blob using its direct Blob URL.
+Attempting to access the uploaded blob directly using the Blob URL resulted in the following error because public access is disabled.
 
 ![Public Access Error](../images/blob-public-access-not-permitted.png)
 
-### Generate Shared Access Signature (SAS)
-
-![Generate SAS](../images/generate-sas-token.png)
+---
 
 ### Blob Access Using SAS URL
 
-![Blob Access Success](../images/blob-sas-url-success.png)
+After generating a Shared Access Signature (SAS), the uploaded blob became securely accessible through the generated URL.
+
+![Blob SAS Success](../images/blob-sas-url-success.png)
 
 ---
 
@@ -77,7 +84,7 @@ This error occurred when attempting to access the blob using its direct Blob URL
 
 - Azure Storage Account
 - Azure Blob Storage
-- Blob Containers
+- Blob Container Management
 - Shared Access Signature (SAS)
 - Azure Storage Security
 - Azure Portal
@@ -88,12 +95,12 @@ This error occurred when attempting to access the blob using its direct Blob URL
 
 ## 💡 Key Learnings
 
-- Azure Storage Accounts provide secure cloud storage services.
+- Azure Storage Accounts provide secure cloud-based object storage.
 - Blob Containers are used to organize and store files.
-- Public access is disabled by default for better security.
-- Blob URLs cannot access private blobs without proper authorization.
-- Shared Access Signature (SAS) provides secure, time-limited access to Azure Storage resources.
-- SAS URLs allow secure sharing of private files without exposing the Storage Account keys.
+- Public access is disabled by default for enhanced security.
+- Direct Blob URLs cannot access private blobs without authorization.
+- Shared Access Signature (SAS) provides secure, time-limited access to storage resources.
+- SAS URLs enable secure file sharing without exposing Storage Account keys.
 
 ---
 
@@ -103,13 +110,13 @@ Successfully created an Azure Storage Account, uploaded files to Azure Blob Stor
 
 ---
 
-## 🌍 Real-World Use Case
+## 🌍 Real-World Use Cases
 
 Azure Blob Storage is commonly used to:
 
 - Store application images and documents
-- Host static website content
+- Host static website assets
 - Store application backups
 - Archive logs and media files
 - Securely share files using Shared Access Signatures (SAS)
-- Integrate with Azure Functions, App Services, and Container Apps
+- Integrate with Azure Functions, App Services, Container Instances, and Container Apps
