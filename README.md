@@ -18,9 +18,7 @@ This repository documents my hands-on Azure learning journey through real deploy
 
 > 📌 Every project in this repository is based on hands-on Azure practice. Along with successful deployments, I document the challenges I encountered, how I investigated them, and the solutions I applied to strengthen my Azure troubleshooting skills.
 
----
-
-# 🎯 Career Roadmap
+# 🎯 Career Journey
 
 ```
 Major Incident Manager
@@ -32,29 +30,48 @@ Application Support Engineer
 Azure Cloud Support Engineer
           │
           ▼
-Azure Administrator
+Cloud Engineer
 ```
 
 ---
 
-# 🛠 Skills I'm Building
+# 🛠 Technical Skills
 
-- ☁️ Microsoft Azure
-- 🖥 Azure Virtual Machines
-- 🌐 Azure App Service
-- ⚡ Azure Functions
-- 🚀 Azure Container Apps
-- 📦 Azure Storage
-- 🌍 Azure Networking
-- 📊 Azure Monitor
-- 🔐 Microsoft Entra ID
-- 📝 ServiceNow
-- 📈 Splunk
-- 🔍 Azure Troubleshooting
+### Cloud
+
+- Microsoft Azure
+- Azure Portal
+- Azure Virtual Machines
+- Azure App Service
+- Azure Functions
+- Azure Container Instances
+- Azure Container Apps
+- Azure Storage Account
+- Azure Blob Storage
+
+### Support & Monitoring
+
+- ServiceNow
+- Splunk
+- Incident Management
+- Major Incident Management
+- Production Support
+- Root Cause Analysis
+
+### Operating Systems
+
+- Linux Basics
+- SSH Connectivity
+
+### Other
+
+- GitHub
+- SQL Basics
+- ITIL Framework
 
 ---
 
-# 📚 AZ-900 Learning Roadmap
+# 📚 Azure Hands-on Roadmap
 
 | Azure Service | Status |
 |--------------|--------|
@@ -64,132 +81,123 @@ Azure Administrator
 | ✅ Azure Functions (HTTP Trigger) | Completed |
 | ✅ Azure Container Instances (ACI) | Completed |
 | ✅ Azure Container Apps | Completed |
-| ⏳ Azure Storage Account | Planned |
-| ⏳ Azure Blob Storage | Planned |
+| ✅ Azure Storage Account & Blob Storage | Completed |
 | ⏳ Azure Virtual Network (VNet) | Planned |
 | ⏳ Network Security Group (NSG) | Planned |
 | ⏳ Azure Monitor | Planned |
 | ⏳ Microsoft Entra ID | Planned |
 | ⏳ Azure SQL Database | Planned |
 | ⏳ Azure Load Balancer | Planned |
+| ⏳ Azure Kubernetes Service (AKS) | Planned |
 
 ---
 
-# 📂 Projects
+# 📂 Project Gallery
 
-| Project | Description |
-|---------|-------------|
-| [Azure Virtual Machine Deployment](projects/Azure-VM-Deployment.md) | Created and connected to an Azure Linux Virtual Machine using SSH |
-| [Azure App Service Deployment](projects/Azure-App-Service.md) | Successfully deployed a web application using Azure App Service |
-| [Azure Functions (HTTP Trigger)](projects/Azure-Functions.md) | Created and tested an Azure Function using an HTTP Trigger |
-| [Azure Container Instances](projects/Azure-Container-Instances.md) | Deployed a containerized application and verified it using the public IP address |
-| [Azure Container Apps](projects/Azure-Container-Apps.md) | Deployed a containerized application using Azure Container Apps and verified it using the application URL |
-
----
-
-# 🔧 Troubleshooting Log
-
-Real-world Azure issues encountered during hands-on practice.
-
-| Issue | Status |
-|--------|--------|
-| ✅ VM Size Not Available | Resolved |
-| ✅ Regional Quota Limitation | Resolved |
-| ✅ Azure App Service Deployment Failure | Resolved |
-| ✅ SSH Connection to Azure VM | Resolved |
-| ✅ Azure Subscription Limitations | Resolved |
-
-📄 **Detailed Troubleshooting:** [TROUBLESHOOTING.md](TROUBLESHOOTING.md)
-
----
-
-# 📷 Project Gallery
-
-| Azure VM | App Service |
-|-----------|-------------|
-| ![](images/vm-overview.png) | ![](images/app-service-overview.png) |
+| Azure Virtual Machine | Azure App Service |
+|------------------------|-------------------|
+| [![](images/vm-overview.png)](projects/Azure-VM-Deployment.md) | [![](images/app-service-overview.png)](projects/Azure-App-Service.md) |
 
 | Azure Functions | Azure Container Instances |
 |-----------------|---------------------------|
-| ![](images/function-app-overview.png) | ![](images/aci-overview.png) |
+| [![](images/function-app-overview.png)](projects/Azure-Functions.md) | [![](images/aci-overview.png)](projects/Azure-Container-Instances.md) |
 
-| Azure Container Apps |
-|-----------------------|
-| ![](images/container-app-overview.png) |
+| Azure Container Apps | Azure Storage & Blob Storage |
+|----------------------|------------------------------|
+| [![](images/container-app-overview.png)](projects/Azure-Container-Apps.md) | [![](images/storage-account-overview.png)](projects/Azure-Storage-Account-and-Blob-Storage.md) |
 
 ---
 
-# 📊 Repository Statistics
+# 🚀 Featured Projects
 
-| Category | Count |
-|----------|------:|
-| Azure Projects | 5 |
-| Azure Services Explored | 6 |
-| Troubleshooting Scenarios | 5 |
-| GitHub Documentation | Ongoing |
-| Hands-on Labs | Growing |
+| Project | Description |
+|---------|-------------|
+| ☁️ Azure Virtual Machines | Deploy and manage Azure Linux Virtual Machines |
+| 🌐 Azure App Service | Deploy web applications using Azure App Service |
+| ⚡ Azure Functions | Build serverless applications with HTTP Triggers |
+| 📦 Azure Container Instances | Deploy Docker containers without managing servers |
+| 🚀 Azure Container Apps | Deploy scalable containerized applications |
+| 💾 Azure Storage & Blob Storage | Securely store and share files using SAS |
+
+---
+
+# 🔧 Troubleshooting Experience
+
+During my Azure hands-on labs, I successfully investigated and resolved several real-world issues.
+
+| Issue | Status |
+|-------|--------|
+| Azure Regional Quota Limitation | ✅ Resolved |
+| App Service Deployment Failure | ✅ Resolved |
+| SSH Connectivity Issues | ✅ Resolved |
+| Azure Subscription Limitations | ✅ Resolved |
+| Blob Storage Public Access Error | ✅ Resolved |
+
+📄 Detailed troubleshooting documentation is available in the repository.
 
 ---
 
 # 📈 Learning Progress
 
-```
-AZ-900 Theory           ██████████ 100%
+```text
+Azure Fundamentals      ██████████ 100%
 
-Azure Hands-on Labs     ██████░░░░ 60%
+Hands-on Projects       ████████░░ 80%
 
-GitHub Portfolio        █████████░ 90%
+GitHub Documentation    ██████████ 100%
 
-Azure Troubleshooting   ██████░░░░ 60%
-
-AZ-104 Preparation      ░░░░░░░░░░ 0%
+AZ-104 Preparation      ██░░░░░░░░ 20%
 ```
 
 ---
 
 # 💡 Key Learnings
 
-✔ Azure Virtual Machines
+✔ Built hands-on experience with Microsoft Azure through real cloud deployments
 
-✔ Azure App Service
+✔ Deployed and managed Azure Virtual Machines, App Services, and Storage Accounts
 
-✔ Azure Functions
+✔ Developed serverless applications using Azure Functions
 
-✔ Serverless Computing
+✔ Worked with containerized workloads using Azure Container Instances and Azure Container Apps
 
-✔ Linux SSH Connectivity
+✔ Configured Azure Blob Storage and securely shared resources using Shared Access Signatures (SAS)
 
-✔ Azure Resource Groups
+✔ Strengthened Linux administration and SSH connectivity skills
 
-✔ Subscription Quotas
+✔ Improved troubleshooting skills by resolving deployment, quota, networking, and storage access issues
 
-✔ Regional Availability
-
-✔ Azure Deployment Troubleshooting
-
-✔ Documentation Best Practices
+✔ Practiced documenting cloud implementations using professional GitHub repositories
 
 ---
 
-# 🚀 Next Learning Goals
+# 🏆 Certifications
 
-- ⏳ Azure Storage Account
-- ⏳ Azure Blob Storage
-- ⏳ Azure Virtual Network (VNet)
-- ⏳ Network Security Groups
-- ⏳ Azure Monitor
-- ⏳ Microsoft Entra ID
-- ⏳ Azure SQL Database
-- ⏳ Azure Load Balancer
-- ⏳ Azure Backup
-- ⏳ AZ-104 Hands-on Labs
+- ✅ Microsoft Certified: Azure Fundamentals (AZ-900)
+- ✅ ITIL® 4 Foundation
 
 ---
 
-# 📖 Learning Philosophy
+# 🎯 Current Learning Goals
 
-> *"I believe the best way to learn cloud technologies is by building, documenting, troubleshooting, and continuously improving through hands-on practice."*
+- Azure Virtual Network (VNet)
+- Network Security Groups (NSG)
+- Azure Monitor
+- Microsoft Entra ID
+- Azure SQL Database
+- Azure Kubernetes Service (AKS)
 
-This repository represents my continuous journey toward becoming an **Azure Application Support Engineer** and **Azure Cloud Support Engineer**⭐
+---
+
+# 🤝 Connect With Me
+
+**GitHub**
+
+👉 https://github.com/kumkum-sharma27/Azure-learning-journey-
+
+---
+
+⭐ *This repository documents my practical Microsoft Azure learning journey through hands-on projects, troubleshooting, and cloud engineering best practices.⭐ 
+
 
 ---
